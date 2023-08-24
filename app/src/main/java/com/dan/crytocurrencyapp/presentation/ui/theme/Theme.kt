@@ -1,4 +1,4 @@
-package com.dan.crytocurrencyapp.ui.theme
+package com.dan.crytocurrencyapp.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
