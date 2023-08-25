@@ -5,9 +5,6 @@ import com.dan.crytocurrencyapp.data.remote.dto.CoinDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 
-/**
- * Created by Dan Kim on 2023-08-24
- */
 interface CoinPaprikaApi {
 
     //https://api.coinpaprika.com/v1/coins

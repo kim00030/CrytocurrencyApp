@@ -56,10 +56,3 @@ fun CoinListScreen(
         }
     }
 }
-
-
-@Preview
-@Composable
-fun PreviewCoinListScreen() {
-
-}

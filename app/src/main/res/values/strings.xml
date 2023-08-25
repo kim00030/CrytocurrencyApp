@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CrytocurrencyApp</string>
+    <string name="active">Active</string>
+    <string name="inactive">inActive</string>
 </resources>

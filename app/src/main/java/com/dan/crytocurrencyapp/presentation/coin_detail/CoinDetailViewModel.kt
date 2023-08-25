@@ -4,10 +4,12 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.dan.crytocurrencyapp.common.Constants
 import com.dan.crytocurrencyapp.common.Resource
 import com.dan.crytocurrencyapp.domain.use_case.get_coin.GetCoinUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
@@ -45,6 +47,6 @@ class CoinDetailViewModel @Inject constructor(
                     _state.value = CoinDetailState(isLoading = true)
                 }
             }
-        }
+        }.launchIn(viewModelScope)
     }
 }

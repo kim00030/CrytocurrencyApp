@@ -2,9 +2,6 @@ package com.dan.crytocurrencyapp.domain.model
 
 import com.dan.crytocurrencyapp.data.remote.dto.TeamMember
 
-/**
- * Created by Dan Kim on 2023-08-24
- */
 data class CoinDetail(
     val coinId: String,
     val name: String,

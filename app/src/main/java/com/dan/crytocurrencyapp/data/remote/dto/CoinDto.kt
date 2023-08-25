@@ -15,7 +15,6 @@ data class CoinDto(
     val type: String
 )
 
-
 fun CoinDto.toCoin(): Coin {
     return Coin(
         id = id,
@@ -25,18 +24,3 @@ fun CoinDto.toCoin(): Coin {
         symbol = symbol
     )
 }
-/*
-Api: https://api.coinpaprika.com/v1/coins
-a entry looks like
-
-{
-  "id": "btc-bitcoin",
-  "name": "Bitcoin",
-  "symbol": "BTC",
-  "rank": 1,
-  "is_new": false,
-  "is_active": true,
-  "type": "coin"
-}
-
- */
