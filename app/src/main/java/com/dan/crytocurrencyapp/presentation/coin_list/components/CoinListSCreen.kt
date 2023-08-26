@@ -23,7 +23,7 @@ import com.dan.crytocurrencyapp.presentation.coin_list.CoinListViewModel
 
 @Composable
 fun CoinListScreen(
-    navController: NavController, //Try pass NavHostController later
+    navController: NavController,
     viewModel: CoinListViewModel = hiltViewModel()
 ) {
     val state = viewModel.state.value

@@ -41,6 +41,6 @@ fun TeamListItem(
 @Composable
 fun PreviewTeamListItem() {
 
-    val testTeamMember = TeamMember(id = "10", name = "ilhyung kim", "founder")
+    val testTeamMember = TeamMember(id = "10", name = "Bob", "founder")
     TeamListItem(teamMember = testTeamMember, modifier = Modifier)
 }
