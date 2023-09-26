@@ -1,2 +1,2 @@
 # CrytocurrencyApp
-Build up with Jetpack compose(OnProgress)
+Build up with Jetpack compose
